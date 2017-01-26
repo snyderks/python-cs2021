@@ -89,7 +89,11 @@ def a_plus_abs_b(a, b):
     >>> a_plus_abs_b(2, -3)
     5
     """
-    return a + (b if b >= 0 else -b)
+    if b < 0:
+        f = sub
+    else:
+        f = add
+    return f(a, b)
 
 
 #  Q8
@@ -106,10 +110,7 @@ def two_of_three(a, b, c):
     >>> two_of_three(5, 5, 5)
     50
     """
-    s = sorted((a, b, c))[::-1]
-    return s[0]*s[0] + s[1]*s[1]
-
-
+    return a**2 + b**2 + c**2 - min(a, b, c)**2
 
 #  Q9
 def largest_factor(n):
@@ -124,8 +125,6 @@ def largest_factor(n):
     for i in range(int(n/2), 1, -1):
         if n % i == 0:
             return i
-
-
 
 #  Q10
 def if_function(condition, true_result, false_result):
