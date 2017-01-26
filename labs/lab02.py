@@ -1,3 +1,7 @@
+# Kristian Snyder
+# Lab 02
+# 26 January 2017
+
 # Q4
 def f_to_c(fahrenheit):
     """Converts Fahrenheit to Celsius
@@ -163,7 +167,7 @@ def t():
     return 1
 
 def f():
-    return int('A')
+    return int('Nope')
 
 #   Q11
 def hailstone(n):
