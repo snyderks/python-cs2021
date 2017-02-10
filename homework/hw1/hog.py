@@ -1,6 +1,6 @@
 # Kristian Snyder
 # Homework 1
-# 2 February 2017
+# 10 February 2017
 
 """The Game of Hog."""
 

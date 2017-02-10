@@ -1,3 +1,7 @@
+# Kristian Snyder
+# Homework 1
+# 10 February 2017
+
 from dice import *
 from hog import *
 
